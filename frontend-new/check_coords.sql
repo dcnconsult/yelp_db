@@ -1,0 +1,1 @@
+SELECT id, ST_AsText(geom) as wkt, ST_X(ST_Centroid(geom)) as center_lon, ST_Y(ST_Centroid(geom)) as center_lat, business_count, avg_rating FROM mv_tampa_service_density_grid WHERE avg_rating >= 1 LIMIT 5;

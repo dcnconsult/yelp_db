@@ -1,0 +1,85 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cursor IDE
+.cursorrules
+.cursor/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# JavaScript/Node.js
+node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.eslintcache
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.parcel-cache
+.cache/
+.next/
+out/
+build/
+dist/
+
+# Database
+*.sqlite3
+*.db
+
+# Project-specific
+/data/
+/docs/
+*.log
+logs/
+schema/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Build artifacts
+*.bak
+*.tmp
+
+# Mapbox token files (if not in .env)
+mapbox-token.txt 
